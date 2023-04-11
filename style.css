@@ -22,7 +22,7 @@ html {
 
 body {
   font-family: "spacecimen" sans-serif;
-  font-size: 16px;
+  /* font-size: 16px; */
   padding: 2.5rem;
 }
 
@@ -200,6 +200,7 @@ body {
   .star-box2,
   .star-box3 {
     left: 0px;
+    width: 100%;
   }
 
   /* Bottom styling */
@@ -210,6 +211,7 @@ body {
   }
 
   .box {
+    width: 100%;
     /* padding: 10px; */
   }
   .box h2,
