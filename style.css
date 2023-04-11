@@ -168,6 +168,7 @@ body {
 @media screen and (max-width: 768px) {
   .main {
     background-image: url(./images/bg-pattern-top-mobile.svg);
+    padding-inline: 5px;
   }
   .header {
     flex-direction: column;
