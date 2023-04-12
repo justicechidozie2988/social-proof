@@ -167,12 +167,14 @@ body {
 
 @media screen and (max-width: 768px) {
   .main {
+    max-width: 375px;
+    
     background-image: url(./images/bg-pattern-top-mobile.svg);
-    margin-inline: 5px;
+    
   }
   .header {
     flex-direction: column;
-    margin-block-end: 20px;
+/*     margin-block-end: 20px; */
   }
   .left {
     text-align: center;
@@ -183,7 +185,7 @@ body {
   }
   .left p {
     font-size: 12px;
-    /* padding: 20px 0; */
+/*     padding: 20px 0; */
     line-height: 15px;
     margin-block-end: 20px;
   }
@@ -195,13 +197,16 @@ body {
     padding-inline: 10px;
     flex-direction: column;
     align-items: center;
+    
+    
   }
 
   .star-box1,
   .star-box2,
   .star-box3 {
     left: 0px;
-    width: 100%;
+    
+    
   }
 
   /* Bottom styling */
@@ -209,11 +214,12 @@ body {
     background-image: url(./images/bg-pattern-bottom-mobile.svg);
     flex-direction: column;
     align-items: center;
+    margin-block-start: 
   }
 
   .box {
-    width: 100%;
-    /* padding: 10px; */
+    margin-block-end: 10px;
+/*     padding: 10px; */
   }
   .box h2,
   h3 {
